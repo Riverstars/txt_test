@@ -14,7 +14,20 @@
 有两点：1)正常回滚 ：git reset --hard (无括号，粘贴git log查询出来的版本码)
 	2）回滚‘回滚’：先，用git reflog 查询删除版本，版本码；再用git reset --hard（粘贴 码）完成回滚
 
+<<<<<<< HEAD
 5_b\ 创建分支bug 和分支dev区别开
 
 6\ 合并bug分支 命令：git merge 分支名
 	并且 删除 bug分支。 命令：git branch -d 分支名
+=======
+5_a\学习branch分支
+	命令 git branch,
+		git branch 分支名 dev
+		git checkout 分支名
+6_a\ 合并dev分支
+
+7\注意上面奇怪的线，表示合并造成的冲突，需要手工修复。
+	修复后完成合并版本
+
+			
+>>>>>>> dev
