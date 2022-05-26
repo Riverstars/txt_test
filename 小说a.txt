@@ -16,7 +16,8 @@
 
 5_a\学习branch分支
 	命令 git branch,
-		git branch 分支名
+		git branch 分支名 dev
 		git checkout 分支名
+6_a\ 合并dev分支
 
 			
