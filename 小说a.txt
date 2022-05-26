@@ -14,3 +14,4 @@
 有两点：1)正常回滚 ：git reset --hard (无括号，粘贴git log查询出来的版本码)
 	2）回滚‘回滚’：先，用git reflog 查询删除版本，版本码；再用git reset --hard（粘贴 码）完成回滚
 
+5_b\ 创建分支bug 和分支dev区别开
