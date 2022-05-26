@@ -15,3 +15,6 @@
 	2）回滚‘回滚’：先，用git reflog 查询删除版本，版本码；再用git reset --hard（粘贴 码）完成回滚
 
 5_b\ 创建分支bug 和分支dev区别开
+
+6\ 合并bug分支 命令：git merge 分支名
+	并且 删除 bug分支。 命令：git branch -d 分支名
