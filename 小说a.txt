@@ -31,3 +31,8 @@
 
 			
 >>>>>>> dev
+
+8\ push到远程仓库，并下载clone到异地。完成版本的同步
+	1）先给远程仓库起名 git remote “别名（如origin）” “远程https地址”  注意：没有引号 注意：别名只需要操作一次
+	2）push代码到远程，git push -u（可略） 别名(origin) master名称（或其他branch）注意：会提示输入github登录名和密码令牌（这是新政策，令牌可视为密码，有时间限制，许及时在github更新
+	3）用clone命令在异地同步代码。git clone 远程地址（https...)
